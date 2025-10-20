@@ -216,8 +216,7 @@ ol {
 
 .content__list-container {
   height: 298px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow-y: auto; 
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -294,7 +293,6 @@ ol {
   line-clamp: 3;
   overflow: hidden; /*скрываем текст*/
   text-overflow: ellipsis; /*добавляем ...*/
-
 }
 
 .content__video-card-thumbnail {
@@ -313,7 +311,7 @@ ol {
 .more-button {
   width: 99%;
   min-height: 34px;
-  margin: 0 7px 2px 2px;
+  margin: 0 2px 2px 2px; /*подгонка в макет*/
 }
 
 .visually-hidden {
